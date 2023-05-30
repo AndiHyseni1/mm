@@ -1,0 +1,96 @@
+body{
+    font-family: 'Open Sans' sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?cs=srgb&dl=pexels-simon-berger-1323550.jpg&fm=jpg");
+    background-size: cover;
+  }
+header{
+    background: #021C28;
+    color: #FFDC00;
+    padding-top: 30px;
+    min-height: 85px;
+    border-bottom: 1px dotted #DDDDDD;
+    margin-top: -1.7%;
+  }
+header a{
+    color: #DDDDDD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-weight: bold;;
+  }
+  header ul{
+    margin: 0;
+    padding: 0;
+  }
+  header li{
+    float:left;
+    display: inline;
+    padding: 0 17px 0 17px;
+  }
+  .divHeader{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header #divH1{
+    min-height: 60px;
+    width: 20%;
+    float: left;
+  }
+  header nav{
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 2%;
+    margin-right: 7%;
+  }
+  main{
+    position: relative;
+    background-color: orange;
+    left: 45%;
+    right: 60%;
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  #mainform input[type="text"],
+  input[type="password"]{
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 20px;
+
+  }
+  main input{
+    display: block;
+    margin: auto;
+
+
+  }
+  main label{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    
+  }
+  #submit{
+    width: 60px;
+    height: 25px;
+    background-color: #FFDC00;
+    border: none;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 10px;
+  }
+  main input:last-child{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
